@@ -11,89 +11,77 @@
         <nav class="container mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-bold">Jane Doe</h1>
             <ul class="flex space-x-4">
-                <li><a href="#about" class="text-background hover:text-secondary">About</a></li>
-                <li><a href="#skills" class="text-background hover:text-secondary">Skills</a></li>
-                <li><a href="#projects" class="text-background hover:text-secondary">Projects</a></li>
-                <li><a href="#contact" class="text-background hover:text-secondary">Contact</a></li>
+                <li><a href="#about" class="text-secondary hover:text-text">About</a></li>
+                <li><a href="#skills" class="text-secondary hover:text-text">Skills</a></li>
+                <li><a href="#projects" class="text-secondary hover:text-text">Projects</a></li>
+                <li><a href="#contact" class="text-secondary hover:text-text">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="hero" class="bg-background text-text py-20">
+    <section id="hero" class="bg-background text-text py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-4xl font-bold mb-4">Welcome to My Data Science Portfolio</h2>
             <p class="text-lg">Exploring the world of data through analysis and visualization.</p>
         </div>
     </section>
-    <section id="about" class="py-20">
+    <section id="about" class="py-16">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-4">About Me</h2>
-            <p class="mb-4">I am Jane Doe, a passionate data science student dedicated to uncovering insights from complex datasets. With a strong foundation in statistics and machine learning, I aim to leverage my skills to drive data-driven decisions.</p>
-            <p>My academic journey has equipped me with a robust toolkit, including Python, R, SQL, and various data visualization libraries. I am excited to apply these skills in real-world scenarios and contribute to meaningful projects.</p>
+            <p class="mb-4">I am Jane Doe, a passionate data science student eager to turn complex data into meaningful insights. With a strong foundation in statistics, machine learning, and data visualization, I am dedicated to leveraging data to drive informed decision-making.</p>
+            <p>My journey in data science began during my undergraduate studies, where I developed a keen interest in using data to solve real-world problems. I have since honed my skills through various projects and internships, working with diverse datasets and tools.</p>
         </div>
     </section>
-    <section id="skills" class="bg-background py-20">
+    <section id="skills" class="bg-background py-16">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-4">Skills</h2>
             <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <li class="bg-primary text-background p-4 rounded">
+                <li class="border p-4 rounded">
                     <h3 class="text-xl font-bold mb-2">Python</h3>
-                    <p>Proficient in using Python for data analysis and machine learning.</p>
+                    <p>Proficient in Python programming with a focus on data manipulation and analysis using libraries like Pandas and NumPy.</p>
                 </li>
-                <li class="bg-primary text-background p-4 rounded">
-                    <h3 class="text-xl font-bold mb-2">R</h3>
-                    <p>Skilled in statistical computing and graphics with R.</p>
-                </li>
-                <li class="bg-primary text-background p-4 rounded">
-                    <h3 class="text-xl font-bold mb-2">SQL</h3>
-                    <p>Expertise in querying and managing relational databases.</p>
-                </li>
-                <li class="bg-primary text-background p-4 rounded">
-                    <h3 class="text-xl font-bold mb-2">Data Visualization</h3>
-                    <p>Experience with tools like Matplotlib, Seaborn, and Tableau.</p>
-                </li>
-                <li class="bg-primary text-background p-4 rounded">
+                <li class="border p-4 rounded">
                     <h3 class="text-xl font-bold mb-2">Machine Learning</h3>
-                    <p>Knowledgeable in supervised and unsupervised learning techniques.</p>
+                    <p>Experience building and deploying machine learning models using frameworks such as Scikit-learn and TensorFlow.</p>
                 </li>
-                <li class="bg-primary text-background p-4 rounded">
-                    <h3 class="text-xl font-bold mb-2">Statistics</h3>
-                    <p>Strong understanding of statistical methods and hypothesis testing.</p>
+                <li class="border p-4 rounded">
+                    <h3 class="text-xl font-bold mb-2">Data Visualization</h3>
+                    <p>Skilled in creating insightful visualizations using Matplotlib, Seaborn, and Tableau to communicate findings effectively.</p>
                 </li>
             </ul>
         </div>
     </section>
-    <section id="projects" class="py-20">
+    <section id="projects" class="py-16">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-4">Projects</h2>
             <article class="mb-8">
-                <h3 class="text-2xl font-bold mb-2">Customer Segmentation</h3>
-                <p>Utilized clustering algorithms to segment customers based on purchasing behavior, enabling targeted marketing strategies.</p>
+                <h3 class="text-xl font-bold mb-2">Customer Segmentation</h3>
+                <p>Developed a customer segmentation model using K-means clustering to identify distinct groups within a retail dataset, enabling targeted marketing strategies.</p>
             </article>
             <article class="mb-8">
-                <h3 class="text-2xl font-bold mb-2">Sentiment Analysis</h3>
-                <p>Developed a sentiment analysis model to gauge public opinion on social media platforms, aiding in brand reputation management.</p>
+                <h3 class="text-xl font-bold mb-2">Sentiment Analysis</h3>
+                <p>Built a sentiment analysis tool using natural language processing techniques to gauge public opinion on social media platforms, aiding in brand reputation management.</p>
             </article>
-            <article class="mb-8">
-                <h3 class="text-2xl font-bold mb-2">Predictive Maintenance</h3>
-                <p>Implemented predictive maintenance models to reduce downtime and maintenance costs in manufacturing plants.</p>
+            <article>
+                <h3 class="text-xl font-bold mb-2">Predictive Maintenance</h3>
+                <p>Implemented a predictive maintenance system using time-series forecasting to reduce equipment downtime and maintenance costs.</p>
             </article>
         </div>
     </section>
-    <section id="contact" class="bg-background py-20">
+    <section id="contact" class="bg-background py-16">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-4">Contact</h2>
             <form id="contact-form" class="max-w-md mx-auto">
                 <div class="mb-4">
                     <label for="name" class="block text-sm font-medium text-text">Name</label>
-                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                 </div>
                 <div class="mb-4">
                     <label for="email" class="block text-sm font-medium text-text">Email</label>
-                    <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                 </div>
                 <div class="mb-4">
                     <label for="message" class="block text-sm font-medium text-text">Message</label>
-                    <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"></textarea>
+                    <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
                 </div>
                 <button type="submit" class="w-full bg-primary text-background py-2 px-4 rounded-md hover:bg-secondary">Send Message</button>
             </form>
